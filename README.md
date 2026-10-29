@@ -1,44 +1,67 @@
-FUTURE_DS_01 — Business Sales Performance Analytics
+# Future Interns — Data Science & Analytics Internship
 
-Internship
-Future Interns — Data Science & Analytics Internship
+**Intern:** Pericherla Deepika
 
-Project Overview
-This project demonstrates sales data analysis using Python. It explores product performance, monthly sales trends, regional sales, category performance, and profitability.
+This repository contains my projects for the Future Interns Data Science & Analytics Internship.
 
-Tools Used
+## Task 1: Business Sales Performance Analytics
+
+**Notebook:** `FUTURE_DS_01_Sales_Analytics.ipynb.ipynb`
+
+### Objective
+Analyze sales performance to understand product revenue, regional performance, monthly trends, and profitability.
+
+### Tools
 - Python
 - Pandas
 - Matplotlib
 - Google Colab
-- GitHub
 
-Analysis Performed
-- Total revenue, profit, and units sold
+### Analysis
+- Total sales, profit, and units sold
 - Sales by product
 - Monthly sales trends
-- Sales by region
-- Sales by product category
+- Regional sales comparison
+- Category-wise sales
 - Profit by product
 
-Key Findings
-- Laptops generated the highest revenue in the sample dataset.
-- Mobile phones were the second-highest revenue contributor.
-- The South region had the highest sales.
-- Electronics generated more revenue than Accessories.
-- Revenue varied across the five-month sample period.
+### Key Findings
+The illustrative sample dataset showed that laptops generated the highest revenue, the South region had the highest sales, and Electronics outperformed Accessories.
 
-Recommendations
-- Monitor inventory for high-performing products.
-- Explore opportunities to increase accessory sales.
-- Study the strategies used in the highest-performing region.
-- Track monthly sales and profit margins.
+## Task 2: Customer Retention & Churn Analysis
 
-Dataset Disclaimer
-This project currently uses illustrative sample data created for practice. The findings do not represent actual company transactions.
+**Notebook:** `FUTURE_DS_02_Customer_Churn_Analysis.ipynb`
 
-Project File
-`FUTURE_DS_01_Sales_Analytics.ipynb` — Contains the Python code, calculations, and visualizations.
+### Objective
+Analyze customer churn and identify customer characteristics associated with leaving a subscription service.
 
-Author
+### Tools
+- Python
+- Pandas
+- Matplotlib
+- Google Colab
+
+### Analysis
+- Customer churn and retention rates
+- Churn by contract type
+- Churn by customer tenure
+- Monthly charges by churn status
+- Churn comparisons by internet service and payment method
+
+### Business Recommendations
+- Improve support for new customers.
+- Review churn patterns across contract types.
+- Investigate pricing, billing, and service concerns.
+- Monitor churn rates to evaluate retention strategies.
+
+## Data Disclaimer
+Task 1 currently uses illustrative sample data. Task 2 uses a publicly available telecommunications customer churn dataset. Findings should be interpreted in the context of the data used.
+
+## Repository Structure
+
+- `FUTURE_DS_01_Sales_Analytics.ipynb.ipynb` — Sales analysis notebook
+- `FUTURE_DS_02_Customer_Churn_Analysis.ipynb` — Customer churn analysis notebook
+- `README.md` — Project documentation
+
+## Author
 Pericherla Deepika
